@@ -10,6 +10,6 @@ function ready(fn) {
 
 ready( () => {
     document.getElementById('showPicture').addEventListener('click', () => {
-        document.getElementById('thisisgit').setAttribute('hidden', false);
+        document.getElementById('thisisgit').removeAttribute('hidden');
     });
 });
